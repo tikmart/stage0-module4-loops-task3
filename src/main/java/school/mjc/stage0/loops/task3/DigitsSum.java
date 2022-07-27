@@ -8,7 +8,7 @@ public class DigitsSum {
         int sum = 0;
 
         for (int i = 0; i <= result.length() ; i++) {
-            sum = sum + t % 10;
+            sum = sum + Math.abs(t) % 10;
             t /= 10;
 
         }
@@ -22,5 +22,7 @@ public class DigitsSum {
         printDigitsSum(243580001);
         printDigitsSum(243581);
         printDigitsSum(-24358);
+        printDigitsSum();
+
     }
 }
