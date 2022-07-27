@@ -22,7 +22,7 @@ public class DigitsSum {
         printDigitsSum(243580001);
         printDigitsSum(243581);
         printDigitsSum(-24358);
-        printDigitsSum();
+
 
     }
 }
